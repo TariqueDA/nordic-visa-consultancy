@@ -25,7 +25,7 @@ export default function Header() {
         <header className={styles.header}>
             <div className={styles.container}>
                 <Link href="/" className={styles.logo}>
-                    NordicVisa
+                    <img src="/logo.png" alt="Nordic Visa Consultancy" className={styles.logoImg} />
                 </Link>
 
                 {/* Desktop Nav */}
