@@ -91,30 +91,118 @@ export default function MedicalPage() {
                     </div>
                 </div>
 
+                {/* Enhanced Language Learning Assistance Section */}
                 <div style={{
-                    background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%)',
-                    padding: 'var(--spacing-xl)',
+                    background: 'var(--background-alt)',
+                    padding: '4rem var(--spacing-xl)',
                     borderRadius: 'var(--radius-lg)',
-                    color: 'white',
-                    marginTop: '4rem'
+                    marginTop: '5rem',
+                    border: '1px solid var(--primary-light)',
+                    boxShadow: 'var(--shadow-lg)',
+                    position: 'relative',
+                    overflow: 'hidden'
                 }}>
-                    <h2 style={{ color: 'white', marginBottom: '1.5rem', textAlign: 'center' }}>Language Learning Assistance</h2>
-                    <p style={{ textAlign: 'center', marginBottom: '2rem', maxWidth: '800px', margin: '0 auto 2rem', lineHeight: '1.8' }}>
-                        <strong>Nordic Visa Consultancy</strong> provides comprehensive language learning support to help you pass
-                        <strong> German (B2/C1)</strong> and <strong>Swedish (C1)</strong> language exams. We connect you with
-                        certified instructors, provide study materials, and offer exam preparation guidance to ensure you meet
-                        the language requirements for medical licensing in Europe.
-                    </p>
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem', marginTop: '2rem' }}>
-                        <div style={{ textAlign: 'center' }}>
-                            <h3 style={{ color: 'var(--accent)', fontSize: '1.5rem' }}>German Language</h3>
-                            <p>B2 to C1 Medical German</p>
-                            <p>Fachsprachprüfung Prep</p>
+                    <div style={{
+                        position: 'absolute',
+                        top: 0,
+                        right: 0,
+                        width: '300px',
+                        height: '300px',
+                        background: 'radial-gradient(circle, rgba(59, 130, 246, 0.05) 0%, transparent 70%)',
+                        zIndex: 0
+                    }}></div>
+
+                    <div style={{ position: 'relative', zIndex: 1 }}>
+                        <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+                            <div style={{
+                                display: 'inline-block',
+                                padding: '0.4rem 1rem',
+                                background: 'var(--primary)',
+                                color: 'white',
+                                borderRadius: '2rem',
+                                fontWeight: 600,
+                                fontSize: '0.75rem',
+                                textTransform: 'uppercase',
+                                letterSpacing: '1px',
+                                marginBottom: '1rem'
+                            }}>
+                                Success Starts with Language
+                            </div>
+                            <h2 style={{ color: 'var(--primary)', fontSize: '2.5rem', marginBottom: '1.5rem' }}>
+                                Language Learning Assistance
+                            </h2>
+                            <p style={{ maxWidth: '800px', margin: '0 auto', color: 'var(--text-muted)', fontSize: '1.125rem', lineHeight: 1.8 }}>
+                                <strong>Nordic Visa Consultancy</strong> provides high-impact language support for doctors and nurses.
+                                We don't just guide you on the rules; we connect you with <strong>specialized medical language tutors</strong>
+                                for all top-tier European licensing paths.
+                            </p>
                         </div>
-                        <div style={{ textAlign: 'center' }}>
-                            <h3 style={{ color: 'var(--accent)', fontSize: '1.5rem' }}>Swedish Language</h3>
-                            <p>C1 Medical Swedish</p>
-                            <p>Kunskapsprov Preparation</p>
+
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
+                            {/* German */}
+                            <div style={{ background: 'white', padding: '2rem', borderRadius: 'var(--radius-md)', borderTop: '4px solid #DE2728', boxShadow: 'var(--shadow-md)' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
+                                    <span style={{ fontSize: '1.5rem' }}>🇩🇪</span>
+                                    <h3 style={{ margin: 0, fontSize: '1.25rem', color: 'var(--primary)' }}>German Mastery</h3>
+                                </div>
+                                <ul style={{ color: 'var(--text-muted)', fontSize: '0.95rem', paddingLeft: '1.25rem', lineHeight: 1.7 }}>
+                                    <li>B2 General German Preparation</li>
+                                    <li><strong>C1 Medical German (FSP)</strong> intensive</li>
+                                    <li>Native tutors specialized in <span style={{ color: 'var(--accent)', fontWeight: 600 }}>Ärztekammer exams</span></li>
+                                </ul>
+                            </div>
+
+                            {/* Nordics */}
+                            <div style={{ background: 'white', padding: '2rem', borderRadius: 'var(--radius-md)', borderTop: '4px solid #005293', boxShadow: 'var(--shadow-md)' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
+                                    <span style={{ fontSize: '1.5rem' }}>🇸🇪 🇳🇴 🇩🇰</span>
+                                    <h3 style={{ margin: 0, fontSize: '1.25rem', color: 'var(--primary)' }}>Nordic Languages</h3>
+                                </div>
+                                <ul style={{ color: 'var(--text-muted)', fontSize: '0.95rem', paddingLeft: '1.25rem', lineHeight: 1.7 }}>
+                                    <li><strong>Swedish (C1)</strong> for Kunskapsprov</li>
+                                    <li><strong>Norwegian (B2/C1)</strong> for Lege licensing</li>
+                                    <li><strong>Danish (Prøve i dansk 3)</strong> support</li>
+                                </ul>
+                            </div>
+
+                            {/* English / OET */}
+                            <div style={{ background: 'white', padding: '2rem', borderRadius: 'var(--radius-md)', borderTop: '4px solid #002366', boxShadow: 'var(--shadow-md)' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
+                                    <span style={{ fontSize: '1.5rem' }}>🇮🇪 🇲🇹</span>
+                                    <h3 style={{ margin: 0, fontSize: '1.25rem', color: 'var(--primary)' }}>English / OET</h3>
+                                </div>
+                                <ul style={{ color: 'var(--text-muted)', fontSize: '0.95rem', paddingLeft: '1.25rem', lineHeight: 1.7 }}>
+                                    <li><strong>OET (Occupational English Test)</strong> coaching</li>
+                                    <li>IELTS Academic (7.5+ Band) strategies</li>
+                                    <li>Direct paths for <span style={{ color: 'var(--accent)', fontWeight: 600 }}>Ireland & Malta</span></li>
+                                </ul>
+                            </div>
+
+                            {/* Others */}
+                            <div style={{ background: 'white', padding: '2rem', borderRadius: 'var(--radius-md)', borderTop: '4px solid #F39C12', boxShadow: 'var(--shadow-md)' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
+                                    <span style={{ fontSize: '1.5rem' }}>🇳🇱 🇦🇹 🇵🇱</span>
+                                    <h3 style={{ margin: 0, fontSize: '1.25rem', color: 'var(--primary)' }}>Extended Support</h3>
+                                </div>
+                                <ul style={{ color: 'var(--text-muted)', fontSize: '0.95rem', paddingLeft: '1.25rem', lineHeight: 1.7 }}>
+                                    <li><strong>Dutch (B2/C1)</strong> for BIG registration</li>
+                                    <li><strong>Medical Polish</strong> for NIL verification</li>
+                                    <li>Austrian <strong>Fachsprachenprüfung</strong> focus</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div style={{
+                            marginTop: '3rem',
+                            textAlign: 'center',
+                            padding: '1.5rem',
+                            background: 'rgba(59, 130, 246, 0.05)',
+                            borderRadius: 'var(--radius-sm)',
+                            border: '1px dashed var(--primary-light)'
+                        }}>
+                            <p style={{ margin: 0, color: 'var(--primary)', fontWeight: 600 }}>
+                                💡 Tip: We recommend starting language studies at least 6-8 months before your intended move date.
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -190,6 +190,99 @@ export default function StudyPage() {
                     </div>
                 </div>
 
+                {/* Expanded Language Learning Assistance Section */}
+                <div style={{
+                    background: 'var(--background-alt)',
+                    padding: '4rem var(--spacing-xl)',
+                    borderRadius: 'var(--radius-lg)',
+                    marginTop: '5rem',
+                    border: '1px solid var(--primary-light)',
+                    boxShadow: 'var(--shadow-lg)',
+                    position: 'relative',
+                    overflow: 'hidden'
+                }}>
+                    <div style={{ position: 'relative', zIndex: 1 }}>
+                        <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+                            <div style={{
+                                display: 'inline-block',
+                                padding: '0.4rem 1rem',
+                                background: 'var(--primary)',
+                                color: 'white',
+                                borderRadius: '2rem',
+                                fontWeight: 600,
+                                fontSize: '0.75rem',
+                                textTransform: 'uppercase',
+                                letterSpacing: '1px',
+                                marginBottom: '1rem'
+                            }}>
+                                Your Gateway to Europe
+                            </div>
+                            <h2 style={{ color: 'var(--primary)', fontSize: '2.5rem', marginBottom: '1.5rem' }}>
+                                Language Learning Assistance
+                            </h2>
+                            <p style={{ maxWidth: '800px', margin: '0 auto', color: 'var(--text-muted)', fontSize: '1.125rem', lineHeight: 1.8 }}>
+                                Success in European universities often depends on your language proficiency.
+                                <strong> Nordic Visa Consultancy</strong> provides expert guidance and connects you with certified tutors
+                                for English and European languages.
+                            </p>
+                        </div>
+
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
+                            {/* English */}
+                            <div style={{ background: 'white', padding: '2rem', borderRadius: 'var(--radius-md)', borderTop: '4px solid var(--accent)', boxShadow: 'var(--shadow-md)' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
+                                    <span style={{ fontSize: '1.5rem' }}>🇬🇧</span>
+                                    <h3 style={{ margin: 0, fontSize: '1.25rem', color: 'var(--primary)' }}>English Mastery</h3>
+                                </div>
+                                <ul style={{ color: 'var(--text-muted)', fontSize: '0.95rem', paddingLeft: '1.25rem', lineHeight: 1.7 }}>
+                                    <li><strong>IELTS Academic</strong> intensive prep</li>
+                                    <li>PTE Academic & TOEFL support</li>
+                                    <li>Academic writing workshops for SOPs</li>
+                                </ul>
+                            </div>
+
+                            {/* German */}
+                            <div style={{ background: 'white', padding: '2rem', borderRadius: 'var(--radius-md)', borderTop: '4px solid #DE2728', boxShadow: 'var(--shadow-md)' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
+                                    <span style={{ fontSize: '1.5rem' }}>🇩🇪 🇦🇹</span>
+                                    <h3 style={{ margin: 0, fontSize: '1.25rem', color: 'var(--primary)' }}>German Pathways</h3>
+                                </div>
+                                <ul style={{ color: 'var(--text-muted)', fontSize: '0.95rem', paddingLeft: '1.25rem', lineHeight: 1.7 }}>
+                                    <li>A1 to B2 General German courses</li>
+                                    <li>TestDaF & Goethe-Zertifikat prep</li>
+                                    <li>Focus on <strong>Germany & Austria</strong></li>
+                                </ul>
+                            </div>
+
+                            {/* Nordic */}
+                            <div style={{ background: 'white', padding: '2rem', borderRadius: 'var(--radius-md)', borderTop: '4px solid #005293', boxShadow: 'var(--shadow-md)' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
+                                    <span style={{ fontSize: '1.5rem' }}>🇸🇪 🇳🇴 🇫🇮</span>
+                                    <h3 style={{ margin: 0, fontSize: '1.25rem', color: 'var(--primary)' }}>Nordic Languages</h3>
+                                </div>
+                                <ul style={{ color: 'var(--text-muted)', fontSize: '0.95rem', paddingLeft: '1.25rem', lineHeight: 1.7 }}>
+                                    <li>Swedish, Norwegian & Finnish basics</li>
+                                    <li>Integration language courses</li>
+                                    <li><strong>High success</strong> for Nordic applicants</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div style={{
+                            marginTop: '3rem',
+                            textAlign: 'center',
+                            padding: '1.5rem',
+                            background: 'rgba(59, 130, 246, 0.05)',
+                            borderRadius: 'var(--radius-sm)',
+                            border: '1px dashed var(--primary-light)'
+                        }}>
+                            <p style={{ margin: 0, color: 'var(--primary)', fontWeight: 600 }}>
+                                🌍 We offer both online and physical class options through our specialized partners in Pakistan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
                 <div style={{ textAlign: 'center', marginTop: '4rem', paddingBottom: '4rem' }}>
                     <Link href="/contact" className={styles.primaryBtn}>
                         Book a Free Consultation
