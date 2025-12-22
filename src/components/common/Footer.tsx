@@ -7,7 +7,9 @@ export default function Footer() {
         <footer className={styles.footer}>
             <div className={styles.container}>
                 <div className={styles.column}>
-                    <img src="/logo.png" alt="Nordic Visa Consultancy" style={{ height: '60px', marginBottom: '1.5rem', display: 'block' }} />
+                    <div style={{ background: 'white', padding: '10px 20px', borderRadius: 'var(--radius-sm)', display: 'inline-block', marginBottom: '1.5rem', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
+                        <img src="/logo.png" alt="Nordic Visa Consultancy" style={{ height: '50px', display: 'block' }} />
+                    </div>
                     <p style={{ color: '#CBD5E0', lineHeight: 1.6 }}>
                         Empowering Pakistani students and professionals to build their future in Europe.
                         Transparent, data-driven, and client-centric guidance starting 2026.
