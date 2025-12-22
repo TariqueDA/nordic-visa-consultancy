@@ -1,0 +1,36 @@
+.item {
+    border-bottom: 1px solid #E2E8F0;
+    margin-bottom: var(--spacing-sm);
+}
+
+.trigger {
+    width: 100%;
+    padding: var(--spacing-md) 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.1rem;
+    color: var(--primary);
+}
+
+.content {
+    padding-bottom: var(--spacing-md);
+    color: var(--text-muted);
+    line-height: 1.6;
+    animation: slideDown 0.2s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

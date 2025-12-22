@@ -1,0 +1,34 @@
+[
+    {
+        "country": "Germany",
+        "visaName": "Chancenkarte (Opportunity Card)",
+        "requirement": "Degree + 2 years exp OR Points based",
+        "duration": "1 Year",
+        "market": "High Demand (IT, Engineering)",
+        "settlement": "After 3-5 Years"
+    },
+    {
+        "country": "Sweden",
+        "visaName": "Job Seeker Visa",
+        "requirement": "Advanced Degree (Master's+)",
+        "duration": "3-9 Months",
+        "market": "High Demand (Tech, Green Energy)",
+        "settlement": "After 4 Years"
+    },
+    {
+        "country": "Austria",
+        "visaName": "Red-White-Red Card (Job Seeker)",
+        "requirement": "70+ Points (Education, Exp, Age)",
+        "duration": "6 Months",
+        "market": "Moderate Demand",
+        "settlement": "After 5 Years"
+    },
+    {
+        "country": "Portugal",
+        "visaName": "Job Seeker Visa",
+        "requirement": "Proof of savings + Health Ins.",
+        "duration": "120 Days (+ 60 Days renewable)",
+        "market": "Growing (Tech)",
+        "settlement": "After 5 Years"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "country": "Germany 🇩🇪",
+        "visaType": "Family Reunion (Ehegattennachzug)",
+        "requirement": "German A1 for spouse, B1/B2 for main applicant, Proof of income/space",
+        "processing": "3-6 Months",
+        "benefits": "Full work rights, Access to social security, Permanent residency path"
+    },
+    {
+        "country": "Sweden 🇸🇪",
+        "visaType": "Residence Permit for Family",
+        "requirement": "Maintenance requirement (housing + income), Proof of relationship",
+        "processing": "9-15 Months",
+        "benefits": "Work & study rights, Free healthcare, High quality of life"
+    },
+    {
+        "country": "Norway 🇳🇴",
+        "visaType": "Family Immigration",
+        "requirement": "Minimum income (approx. 320,000 NOK), Housing proof",
+        "processing": "4-12 Months",
+        "benefits": "World-class education for kids, Excellent welfare benefits"
+    },
+    {
+        "country": "Denmark 🇩🇰",
+        "visaType": "Family Reunification",
+        "requirement": "24-year rule, 100,000 DKK collateral, Integration test",
+        "processing": "7-10 Months",
+        "benefits": "Safe environment, High happiness index, Strong labor market"
+    },
+    {
+        "country": "Ireland 🇮🇪",
+        "visaType": "Join Family Visa",
+        "requirement": "Proof of financial dependency/income, Private medical insurance",
+        "processing": "6-12 Months",
+        "benefits": "English-speaking environment, Fast-track for medical families"
+    },
+    {
+        "country": "Finland 🇫🇮",
+        "visaType": "Residence Permit (Family)",
+        "requirement": "Income requirement (approx €2,600/mo for couple), Relationship proof",
+        "processing": "3-6 Months",
+        "benefits": "Best education system, Nature-focused lifestyle"
+    },
+    {
+        "country": "Switzerland 🇨🇭",
+        "visaType": "Family Regrouping",
+        "requirement": "Adequate housing, Language skills (A1-B1 depending on canton)",
+        "processing": "2-4 Months",
+        "benefits": "Highest salaries in Europe, Central location, Multilingual culture"
+    },
+    {
+        "country": "Netherlands 🇳🇱",
+        "visaType": "Family Member Residence",
+        "requirement": "Civic integration (A1), Income test (MVV)",
+        "processing": "3 Months",
+        "benefits": "Skilled migrant 'Partner' benefits, Very inclusive society"
+    },
+    {
+        "country": "Austria 🇦🇹",
+        "visaType": "Red-White-Red Card (Plus)",
+        "requirement": "A1 German, Proof of accommodation, Points-based for some",
+        "processing": "2-4 Months",
+        "benefits": "Right to work anywhere in Austria, Cultural richness"
+    },
+    {
+        "country": "Poland 🇵🇱",
+        "visaType": "Temporary Residence (Family)",
+        "requirement": "Proof of income/insurance, Valid legal stay of main applicant",
+        "processing": "3-9 Months",
+        "benefits": "Lowest cost of living in EU, Growing tech/medical sectors"
+    }
+]

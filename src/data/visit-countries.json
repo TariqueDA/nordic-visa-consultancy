@@ -1,0 +1,72 @@
+[
+    {
+        "country": "Netherlands 🇳🇱",
+        "fee": "€90",
+        "processing": "10-15 Days",
+        "success": "High",
+        "note": "Fastest processing in Schengen; very friendly towards Pakistani travelers."
+    },
+    {
+        "country": "Switzerland 🇨🇭",
+        "fee": "€90",
+        "processing": "10-15 Days",
+        "success": "High",
+        "note": "Excellent success ratio; efficient processing for tourism."
+    },
+    {
+        "country": "Italy 🇮🇹",
+        "fee": "€90",
+        "processing": "15-20 Days",
+        "success": "Moderate-High",
+        "note": "Great for family visits and group tourism."
+    },
+    {
+        "country": "Iceland 🇮🇸",
+        "fee": "€90",
+        "processing": "7-12 Days",
+        "success": "High",
+        "note": "Very low rejection rate; ideal for honeymooners."
+    },
+    {
+        "country": "Greece 🇬🇷",
+        "fee": "€90",
+        "processing": "15 Days",
+        "success": "Moderate-High",
+        "note": "Perfect for summer holidays; standard documentation."
+    },
+    {
+        "country": "Germany 🇩🇪",
+        "fee": "€90",
+        "processing": "20-30 Days",
+        "success": "Moderate",
+        "note": "Strict but fair; requires thorough documentation."
+    },
+    {
+        "country": "France 🇫🇷",
+        "fee": "€90",
+        "processing": "15-20 Days",
+        "success": "Moderate",
+        "note": "Most popular destination; strict itinerary checks."
+    },
+    {
+        "country": "Austria 🇦🇹",
+        "fee": "€90",
+        "processing": "15 Days",
+        "success": "High",
+        "note": "Efficient and reliable; good success for genuine tourists."
+    },
+    {
+        "country": "Spain 🇪🇸",
+        "fee": "€90",
+        "processing": "15-20 Days",
+        "success": "Moderate",
+        "note": "Strict on hotel bookings and return ticket proofs."
+    },
+    {
+        "country": "Portugal 🇵🇹",
+        "fee": "€90",
+        "processing": "15-25 Days",
+        "success": "Moderate-High",
+        "note": "Increasingly popular; requires verified stays."
+    }
+]
