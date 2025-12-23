@@ -17,24 +17,13 @@
     margin: 0 auto;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    background: white;
-    padding: 6px 15px;
-    border-radius: var(--radius-md);
-    transition: transform 0.2s;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.logoLink {
+    text-decoration: none;
+    transition: transform 0.2s ease;
 }
 
-.logo:hover {
+.logoLink:hover {
     transform: translateY(-2px);
-}
-
-.logoImg {
-    height: 45px;
-    width: auto;
-    object-fit: contain;
 }
 
 .nav {
