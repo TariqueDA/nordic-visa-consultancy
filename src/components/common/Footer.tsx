@@ -1,5 +1,14 @@
+import Link from 'next/link';
+import styles from './Footer.module.css';
+import { Mail, Phone, MapPin } from 'lucide-react';
+import Logo from './Logo';
+
+export default function Footer() {
+    return (
+        <footer className={styles.footer}>
+            <div className={styles.container}>
                 <div className={styles.column}>
-                    <Logo height={50} primaryColor="white" textColor="white" secondaryColor="var(--accent)" className={styles.footerLogo} />
+                    <Logo height={50} primaryColor="white" textColor="white" secondaryColor="var(--accent)" />
                     <p style={{ color: '#CBD5E0', lineHeight: 1.6, marginTop: '1.5rem' }}>
                         Empowering Pakistani students and professionals to build their future in Europe.
                         Transparent, data-driven, and client-centric guidance starting 2026.
@@ -35,10 +44,10 @@
                         </li>
                     </ul>
                 </div>
-            </div >
-    <div className={styles.bottom}>
-        <p>&copy; {new Date().getFullYear()} Nordic Visa Consultancy. All rights reserved.</p>
-    </div>
-        </footer >
+            </div>
+            <div className={styles.bottom}>
+                <p>&copy; {new Date().getFullYear()} Nordic Visa Consultancy. All rights reserved.</p>
+            </div>
+        </footer>
     );
 }
